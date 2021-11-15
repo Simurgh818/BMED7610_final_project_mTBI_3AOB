@@ -1,0 +1,10 @@
+All data are the output of STEP1_3AOB_JFC.m.  I didn't include raw data here since that contains things like date and time that need to be stripped out.
+
+Files are labeled: ID _ session _ task.mat  (e.g. 3001_1_3AOB.mat)
+
+These have already been cleaned using APPLE; bad ICs are identified in the QUALITY CHECK.xls sheets.
+
+I could be convinced to convert the raw data to .mat data so it could be run through STEP1 and people could clean it as they see fit - but otherwise having the data already pre-processed may help people get to some results quicker.
+
+You can run STEP2_3AOB_Process.m to get the processed data, then run Manuscript_3AOB.m to call all the sub-routines that output the data in the paper.
+
